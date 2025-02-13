@@ -1,0 +1,124 @@
+#show-product-container,
+#explore-product-container,
+#explore-show-product-container,
+#product-container,
+#phones-products,
+#computer-products,
+#watch-products,
+#camera-products,
+#headPhone-products,
+#gaming-products,
+#best-product-container,
+#show-best-product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 8px;
+    width: 240px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 20px;
+    background:linear-gradient(to bottom, white 65%, #eee 65%);
+}
+.product-card:hover {
+    transform: translateY(-10px);
+}
+.product-card img {
+    width: 85%;
+    position: relative;
+    left: 15px;
+}
+
+.discount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.discount p {
+    background-color: #e63946;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.discount h2:hover{
+    cursor: pointer;
+    color: #e63946;
+}
+
+.product-info {
+    padding: 15px;
+}
+.product-name {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.price-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.price {
+    color: #e63946;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+    font-size: 1em;
+}
+.rating {
+    color: #ffcc00;
+    margin: 5px 0;
+}
+.rating span{
+    color: #555;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buttons:hover {
+    background-color: #555;
+}
+.product-details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 14.5px;
+}
+
+#phones-products .imgPhone {
+    width: 150px;
+    position: relative;
+    left: 45px;
+    margin-bottom: 10px;
+}
+
+#show-best-product-container .discount h2 {
+    color: #e63946;
+}
+#best-product-container .discount h2{
+    color: #e63946;
+}

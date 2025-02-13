@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="main-main-header">
+    <div class="main-head">
+      <div class="head">
+        <p>Summer Sale For All Suits And Free Express Delivery-OFF 50%! </p>
+        <a href="">ShopNow</a>
+      </div>
+      <button class="dropdown-btn">English <span>▼</span></button>
+    </div>
+    <div class="header">
+      <h1>Exclusive</h1>
+      <div class="links">
+        <ul class="main-nav" id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="sign up.html">Sign Up</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <label for="">
+          <input type="text" placeholder="What are you looking for?">
+          <i class="fas fa-search search-icon"></i>
+        </label>
+      </div>
+      <div class="icons">
+        <div class="short-icon">
+          <a href="favourite.html" class="fa-solid fa-heart" id="icon"></a>
+          <a href="cart.html" class="fa-solid fa-cart-shopping" id="icon"></a>
+          <button id="btn-listProfile" class="btn-listProfile"><i class="fa-solid fa-user"></i></button>
+        </div>
+        <div class="listOfProfile" id="listOfProfile">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <a href="">Manage My Account </a>
+          </div>
+          <div>
+            <i class="fa fa-shopping-bag"></i>
+            <a href="">My Orders</a>
+          </div>
+          <div>
+            <i class="fa fa-times-circle"></i>
+            <a href="">My Cancellations</a>
+          </div>
+          <div>
+            <i class="fa fa-star"></i>
+            <a href="">My Reviews</a>
+          </div>
+          <div>
+            <i class="fa fa-sign-out-alt"></i>
+            <a href="">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("btn-listProfile").onclick = function() {
+      const profileBtn = document.getElementById('listOfProfile');
+      if (profileBtn.style.marginRight == '-250px') {
+        profileBtn.style.marginRight = '0'
+      } else {
+        profileBtn.style.marginRight = '-250px'
+      }
+    }
+  </script>
+</body>
+
+</html>
