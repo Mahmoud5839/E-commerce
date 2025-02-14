@@ -27,7 +27,7 @@ li {
   font-size: 13px;
   padding: 20px;
 }
-.main-main-header.main-head .head{
+.main-main-header.main-head .head {
   display: flex;
   gap: 10px;
 }
@@ -36,7 +36,7 @@ li {
   text-decoration: underline;
 }
 .main-main-header .main-head .head p {
-  opacity: .8;
+  opacity: 0.8;
 }
 .main-main-header .main-head button {
   background-color: transparent;
@@ -47,7 +47,6 @@ li {
 .main-main-header .main-head button span {
   text-decoration: none;
 }
-
 
 .sidebar {
   height: 100%;
@@ -73,19 +72,18 @@ li {
   top: 25px;
 }
 
-
 .sidebar a::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 35px;
   left: 0;
   width: 90%;
-  height: .5px;
+  height: 0.5px;
   background-color: #aaee;
 }
 
 .sidebar a:hover {
-  transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
   transform: translateX(10px);
 }
 
@@ -147,7 +145,7 @@ li {
   margin-top: 20px;
   margin-bottom: 4%;
 }
-.header .main-nav{
+.header .main-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -164,7 +162,7 @@ li {
   position: relative;
 }
 
-.header label input{
+.header label input {
   border: 0;
   outline: 0;
   border-radius: 5px;
@@ -173,9 +171,9 @@ li {
   width: 200px;
 }
 .header label i {
-  position: relative; 
-  right: 30px; 
-  top: 3px; 
+  position: relative;
+  right: 30px;
+  top: 3px;
   color: #555;
 }
 .header::after {
@@ -187,18 +185,18 @@ li {
   background-color: rgba(0, 0, 0, 0.295);
 }
 .header a:hover {
-  transition: all .3s;
+  transition: all 0.3s;
   color: rgba(0, 255, 255, 0.911);
 }
 .header .icons {
   display: flex;
   flex-direction: column;
 }
-.header .icons #icon{
+.header .icons #icon {
   color: #7a7676;
 }
 .header .icons #icon:hover {
-  color: #DB4444;
+  color: #db4444;
 }
 
 .btn-listProfile {
@@ -209,10 +207,10 @@ li {
   color: #7a7676;
 }
 .btn-listProfile:hover {
-  color: #DB4444;
+  color: #db4444;
   transition: none;
 }
-.listOfProfile{
+.listOfProfile {
   background: linear-gradient(to right, #29143d, #34223a, #29143d);
   width: 12rem;
   padding: 20px 10px;
@@ -223,25 +221,25 @@ li {
   transition: all 0.5s ease-in;
   margin-right: -250px;
 }
-.listOfProfile div a{
+.listOfProfile div a {
   color: white;
   text-decoration: none;
 }
-.listOfProfile div a:hover{
-  color: #DB4444;
+.listOfProfile div a:hover {
+  color: #db4444;
 }
-.listOfProfile div{
+.listOfProfile div {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.listOfProfile div i{
+.listOfProfile div i {
   color: rgb(245, 245, 245);
   cursor: pointer;
 }
-.listOfProfile div i:hover{
-  color: #DB4444;
+.listOfProfile div i:hover {
+  color: #db4444;
 }
 
 /* end header */
@@ -258,7 +256,7 @@ li {
   color: white;
   font-size: 20px;
   padding: 12px;
-  border-radius: 3px
+  border-radius: 3px;
 }
 .btn-fixed:hover {
   cursor: pointer;
@@ -301,7 +299,7 @@ li {
   width: 300px;
   border: 0;
   border-radius: 5px;
-  background-color: #DB4444;
+  background-color: #db4444;
   padding: 10px;
   color: white;
   cursor: pointer;
@@ -310,7 +308,7 @@ li {
 .sign-up .data-user .data-btn {
   position: relative;
 }
-.sign-up .data-user .data-btn button{
+.sign-up .data-user .data-btn button {
   width: 300px;
   background-color: white;
   border: 1px solid black;
@@ -321,8 +319,8 @@ li {
   font-style: normal;
 }
 button:hover {
-  opacity: .8;
-  transition: all .3s;
+  opacity: 0.8;
+  transition: all 0.3s;
   scale: 1.02;
 }
 .sign-up .data-user .data-btn i {
@@ -342,26 +340,26 @@ button:hover {
 /* end sign-up */
 
 /* start page login */
-.sign-up .data-user{
+.sign-up .data-user {
   display: flex;
   flex-direction: column;
 }
-.sign-up .data-user .have-account{
+.sign-up .data-user .have-account {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.sign-up .data-user .have-account .btn-login{
+.sign-up .data-user .have-account .btn-login {
   border: 0;
-  background-color: #DB4444;
+  background-color: #db4444;
   color: white;
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
   padding: 13px 30px;
 }
-.sign-up .data-user .have-account .pass-login{
-  color: #DB4444;
+.sign-up .data-user .have-account .pass-login {
+  color: #db4444;
   text-decoration: none;
 }
 /* end page login */
@@ -395,7 +393,7 @@ button:hover {
 }
 
 /* start static */
-.static-about  {
+.static-about {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -407,7 +405,7 @@ button:hover {
   text-align: center;
 }
 .static-about #product-sale {
-  background-color: #DB4444;
+  background-color: #db4444;
   color: white;
 }
 /* end static */
@@ -486,7 +484,7 @@ button:hover {
   position: relative;
   right: 3.5%;
 }
-.main-contact .your-massage-us label{
+.main-contact .your-massage-us label {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -516,7 +514,7 @@ button:hover {
   margin-top: 20px;
   display: flex;
   justify-self: end;
-  background-color: #DB4444;
+  background-color: #db4444;
   color: white;
 }
 /* end contact */
@@ -549,7 +547,7 @@ button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .my-account .form-container h2 {
-  color: #DB4444;
+  color: #db4444;
   margin-bottom: 20px;
 }
 .my-account .form-container .form-group {
@@ -572,7 +570,7 @@ button:hover {
   border-radius: 5px;
   background-color: #f9f9f9;
   font-size: 12px;
-} 
+}
 .my-account .form-container .form-group .email-inp {
   position: relative;
   right: 6.5%;
@@ -586,7 +584,7 @@ button:hover {
   margin-top: 20px;
 }
 .my-account .form-container .form-actions .save-btn {
-  background-color: #DB4444;
+  background-color: #db4444;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -602,7 +600,7 @@ button:hover {
   cursor: pointer;
 }
 .my-account .manage-account a:hover {
-  color: #DB4444;
+  color: #db4444;
 }
 /* end my-account */
 
@@ -619,11 +617,11 @@ button:hover {
   position: relative;
 }
 .after-nav .link-product::after {
-  content: '';
+  content: "";
   position: absolute;
   right: -30px;
   bottom: -14px;
-  width: .5px;
+  width: 0.5px;
   height: 123%;
   background-color: rgba(0, 0, 0, 0.295);
 }
@@ -634,7 +632,7 @@ button:hover {
   gap: 50px;
   position: relative;
 }
-.after-nav .link-product .collection a {
+.after-nav .link-product a {
   color: black;
 }
 .after-nav .link-product .collection .onep {
@@ -644,6 +642,11 @@ button:hover {
 .after-nav .link-product .collection .onelink {
   position: absolute;
   right: 0px;
+}
+
+.after-nav .link-product a:hover {
+  color: rgba(0, 255, 255, 0.911);
+  transition: all 0.3s ease-in;
 }
 /* start swiper */
 swiper-slide {
@@ -684,7 +687,10 @@ swiper-slide .presentation .text-phone a {
   display: block;
 }
 
-#days, #hours, #minutes, #seconds {
+#days,
+#hours,
+#minutes,
+#seconds {
   font-size: 3rem;
   font-weight: bold;
   color: #000;
@@ -715,7 +721,7 @@ swiper-slide .presentation .text-phone a {
   margin-bottom: 7rem;
 }
 .view-products::after {
-  content:' ';
+  content: " ";
   position: absolute;
   bottom: -4rem;
   width: 92%;
@@ -725,7 +731,7 @@ swiper-slide .presentation .text-phone a {
 .view-products button {
   width: 17rem;
   padding: 10px;
-  background-color: #DB4444;
+  background-color: #db4444;
   color: white;
   border: 0;
   border-radius: 5px;
@@ -748,7 +754,7 @@ swiper-slide .presentation .text-phone a {
 .container-browse h2 {
   margin-bottom: 3.5%;
 }
-.container-browse .browse-catagory .fas-icon{
+.container-browse .browse-catagory .fas-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -766,12 +772,12 @@ swiper-slide .presentation .text-phone a {
   font-size: 2.5rem;
   color: #7a7676;
 }
-.container-browse .browse-catagory .fas-icon p{
+.container-browse .browse-catagory .fas-icon p {
   font-size: 1rem;
   font-weight: normal;
 }
 .container-browse .browse-catagory::after {
-  content:' ';
+  content: " ";
   position: absolute;
   bottom: -3rem;
   width: 92%;
@@ -802,7 +808,7 @@ swiper-slide .presentation .text-phone a {
   padding: 10px 30px;
   border: 0;
   border-radius: 4px;
-  background-color: #DB4444;
+  background-color: #db4444;
   color: white;
   cursor: pointer;
   font-size: 1rem;
@@ -861,10 +867,10 @@ swiper-slide .presentation .text-phone a {
 .categories .counter .counter-time p:last-child {
   font-size: 10px;
 }
-.categories .enhance-right  button {
+.categories .enhance-right button {
   border: 0;
   border-radius: 4px;
-  background-color: #00FF66;
+  background-color: #00ff66;
   color: white;
   font-size: 1.1rem;
   cursor: pointer;
@@ -872,7 +878,6 @@ swiper-slide .presentation .text-phone a {
 .all-product {
   display: flex;
   justify-content: center;
-
 }
 .all-product button {
   padding: 10px;
@@ -895,7 +900,7 @@ swiper-slide .presentation .text-phone a {
   margin: 0 50px;
   margin-bottom: 5rem;
 }
-.featured-new .new-right{
+.featured-new .new-right {
   background-color: #000;
   color: white;
   position: relative;
@@ -943,7 +948,7 @@ swiper-slide .presentation .text-phone a {
   color: white;
   text-decoration: underline;
 }
-.featured-new .new-left .women  img {
+.featured-new .new-left .women img {
   width: 200px;
   transform: rotateY(180deg);
 }
@@ -951,7 +956,7 @@ swiper-slide .presentation .text-phone a {
   display: flex;
   gap: 20px;
 }
-.featured-new .other-prod .speak-perfum{
+.featured-new .other-prod .speak-perfum {
   background-color: rgb(43, 43, 43);
   width: 50%;
   height: 190px;
@@ -963,7 +968,6 @@ swiper-slide .presentation .text-phone a {
   position: absolute;
   bottom: 10px;
   font-size: 12px;
-
 }
 .featured-new .other-prod .speak-perfum .desc-speak-purf p {
   margin: 7px 0;
@@ -987,20 +991,20 @@ footer {
   padding: 40px;
   border-bottom: 1px solid rgba(141, 138, 138, 0.336);
 }
-.footer  a {
+.footer a {
   color: white;
 }
 .footer p {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .footer .offer {
   line-height: 2;
 }
-.footer .offer .email{
+.footer .offer .email {
   position: relative;
 }
-.footer .offer .email input{
+.footer .offer .email input {
   padding: 10px;
   border: 1px solid white;
   color: white;
@@ -1008,7 +1012,7 @@ footer {
   outline: 0;
   background-color: transparent;
 }
-.footer .offer .email i{
+.footer .offer .email i {
   position: absolute;
   top: 0.7rem;
   right: 20px;
@@ -1025,14 +1029,14 @@ footer {
 .footer .account {
   line-height: 2;
 }
-.footer .account p{
+.footer .account p {
   width: 100px;
   font-size: 13px;
 }
-.footer .quick-links{
+.footer .quick-links {
   line-height: 2;
 }
-.footer .quick-links p{
+.footer .quick-links p {
   width: 100px;
 }
 .footer .download {
@@ -1056,24 +1060,36 @@ footer {
 }
 .footer .download .icons-social a:hover {
   color: rgb(42, 154, 247);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 footer .copyright {
   color: rgb(56, 56, 56);
   text-align: center;
   font-size: 13px;
-  opacity: .8;
+  opacity: 0.8;
   padding-top: 10px;
   padding-bottom: 30px;
 }
 /* end footer */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .main-list {
     display: flex;
   }
   .after-nav .link-product::after {
     display: none;
+  }
+  .after-nav .link-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .after-nav .link-product .collection a:nth-child(2) {
+    display: none;
+  }
+  .after-nav .link-product .collection .onep {
+    position: relative;
+    left: 0;
   }
   .main-main-header .header {
     display: none;
@@ -1084,7 +1100,7 @@ footer .copyright {
   .categories .enhance-img img {
     width: 75%;
   }
-  .categories{
+  .categories {
     padding: 20px;
   }
   .main-contact .calling {
